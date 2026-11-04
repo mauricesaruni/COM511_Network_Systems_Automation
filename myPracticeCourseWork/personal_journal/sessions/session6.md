@@ -28,8 +28,35 @@ SSL ensures that connection from the browser to the web server becomes secure th
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
+i did it but never took the screenshots
 
+Example 6-1 – Using more than one Apache container
+Used Docker Compose to develop and run Apache containers.
+Was able to expose the container services to different ports.
+Visited the Apache websites using a web browser.
 
+Example 6-2 – Running multiple Apache containers using shared volumes
+Utilized the ubuntu/apache2 Docker image.
+Developed two Apache services.
+Used a shared volume of local HTML files via Docker volumes.
+Was able to visit the websites through ports 8081 and 8082.
+
+Example 6-3 – WordPress and MariaDB
+Utilized the wordpress:latest image to deploy WordPress.
+Used MariaDB to serve the database services.
+Started and checked the running of the two containers using Docker Compose.
+Visited the WordPress service using port 8011.
+Found out about the Apache 403 Forbidden error and discovered that WordPress had been installed on a sub-directory.
+
+Example 6-4 – WordPress load balancing using Nginx and SSL
+Deployed MariaDB, three WordPress containers and Nginx container.
+Found out that all five containers were up and running.
+Used Nginx to configure and visit the website.
+Was able to visit the website using HTTP and HTTPS.
+Discovered how Nginx can be used to load balance more than one WordPress instance.
+
+All were successfull 
 
 ## Summary of learning
 *What did you learn through these exercises*
+I have learned how to deploy and manage multiple containers using Docker Compose. I got hands-on experience on Apache, WordPress, MariaDB and Nginx. I also learned about port mapping, volume, load balancing and SSL. Overall, I have acquired new Docker skills and also learned how to debug containers.
