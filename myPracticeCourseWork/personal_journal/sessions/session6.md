@@ -34,12 +34,21 @@ Example 6-1 – Using more than one Apache container
 Used Docker Compose to develop and run Apache containers.
 Was able to expose the container services to different ports.
 Visited the Apache websites using a web browser.
+<img width="1092" height="304" alt="s6 1" src="https://github.com/user-attachments/assets/1c30e37d-cf57-437e-a7e1-2442b43380bb" />
+<img width="1296" height="513" alt="s6 2" src="https://github.com/user-attachments/assets/2e7360e9-d54a-49df-969f-57b959679421" />
+<img width="585" height="523" alt="s6 3" src="https://github.com/user-attachments/assets/b183ece5-e003-49c4-bad5-95b4c708a70a" />
+<img width="1093" height="168" alt="s6 4" src="https://github.com/user-attachments/assets/0c583f0b-25e9-40f9-ab36-5475cc453127" />
+<img width="1094" height="200" alt="s6 5" src="https://github.com/user-attachments/assets/d4762b5c-7b7b-43e5-b36b-22d7c77b9b8d" />
 
 Example 6-2 – Running multiple Apache containers using shared volumes
 Utilized the ubuntu/apache2 Docker image.
 Developed two Apache services.
 Used a shared volume of local HTML files via Docker volumes.
 Was able to visit the websites through ports 8081 and 8082.
+<img width="667" height="427" alt="2s6 1" src="https://github.com/user-attachments/assets/cc4cc10c-73af-4334-b100-2cd1834e458b" />
+<img width="646" height="174" alt="2s6 2" src="https://github.com/user-attachments/assets/b111dd8e-ad82-4cd8-acf6-57fb5a0d2d30" />
+<img width="1156" height="410" alt="2s6 3" src="https://github.com/user-attachments/assets/ffd05ee6-35b3-44e6-a6e0-4850b8af8440" />
+<img width="1341" height="623" alt="2s6 4" src="https://github.com/user-attachments/assets/7a36dd2a-055c-4d0c-b6e4-1c9b337f8a4d" />
 
 Example 6-3 – WordPress and MariaDB
 Utilized the wordpress:latest image to deploy WordPress.
